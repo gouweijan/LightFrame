@@ -1,0 +1,6 @@
+*__pycache__*
+static/uploads/*.gif
+static/uploads/*.mp4
+static/uploads/*.png
+static/uploads/*.jpg
+static/uploads/*.jpeg

@@ -1,0 +1,15 @@
+[Unit]
+Description=LightFrame.
+After=multi-user.target
+
+[Service]
+type=simple
+Restart=always
+WorkingDirectory=/home/pi/LightFrame
+ExecStart=python app.py
+
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target

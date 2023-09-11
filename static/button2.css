@@ -1,0 +1,52 @@
+.butcontainer {
+    position: relative;
+    width: 400px;
+    height: 220px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .butcontainer:before {
+    /* empty pseudo */
+    content: '';
+    
+    /* start transparent, include a transition bcuz */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+    /* covers the whole div */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50%;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
+  .butcontainer:hover:before {
+    opacity: 1;
+  }
+  .butcontainer img {
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .butbtn {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    position: relative;
+    padding: 0 40px;
+    height: 40px;
+    line-height: 40px;
+    max-width: 260px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .butcontainer:hover .butbtn {
+    opacity: 1;
+  }
+  

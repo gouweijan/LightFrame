@@ -1,0 +1,7 @@
+board==1.0
+Flask==2.3.2
+neopixel==0.0.1
+numpy==1.19.5
+Pillow==10.0.0
+rpi_ws281x==5.0.0
+Werkzeug==2.3.6
