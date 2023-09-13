@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.sitecontainer {
+  /* height: 100vh; */
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #fcfcfc;
+}
+
+.card {
+  border-radius: 10px;
+  width: 600px;
+  height: 300px;
+  background-color: #ffffff;
+  padding: 10px 30px 40px;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  
+}
+
+.drop_box {
+  margin: 10px 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px dotted #a3a3a3;
+  border-radius: 5px;
+}
+
+.drop_box h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.drop_box p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: black;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  outline: 1px solid #010101;
+}
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+p{text-align: center}
+
+img {
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
+}
+
+#container {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+}
+
+form {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 16px;
+}
+
+label,
+select {
+  display: block;
+  margin: 10px 0;
+}
+
+select {
+  width: 100%;
+  font-size: 1em;
+  padding: 5px;
+}
+
+button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: #007bff;
+  border-bottom: 2px solid #007bff;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #0069d9;
+  cursor: pointer;
+}
+
+form input[type='text'] {
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 2%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font-size: 1em;
+}
+
+form input[type='text']:focus {
+  box-shadow: 0 0 5px #f0db4f;
+  padding: 3%;
+  border: 1px solid #f0db4f;
+}
